@@ -41,7 +41,7 @@ Civitai **内部 API** 上传工具包（官方没有模型上传 API，这套�
 2. 传文件分片时 presigned PUT **不能带 Authorization 头**（会报 `Missing x-amz-content-sha256`）
 3. tRPC 入参必须包在 `{"json": {...}}` 里，否则只报 "Invalid input" 没细节
 4. 模型和**每个版本**都要各自 `publish`，漏了公开 API 一直 404
-5. `tags` 是**数字 ID 数组**，传字符串静默忽略
+5. 设 tag 要用 `tagsOnModels: [{"name": "maid"}]`；传 `tags` 不报错但会被**静默忽略**（名字不存在会自动建 tag）
 
 ## 本次已发布
 

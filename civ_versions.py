@@ -152,5 +152,8 @@ lora key not loaded: lora_unet_layers_N_proj_q.lora_up.weight
 **HuggingFace 镜像**：[WYR233/MOSS-Image-LoRA-DeepSeek-Whale-Girl-DaFeiYu](https://huggingface.co/WYR233/MOSS-Image-LoRA-DeepSeek-Whale-Girl-DaFeiYu)
 """
 
+# Civitai tag 名单（2026-11-14 已实测全部生效）
+# ⚠️ 写 tag 用 civ_tags.py：接口吃的是 tagsOnModels=[{"name": ...}]，不是这里的列表本身；
+#    名字不存在会自动建 tag；anime / character 是分类(isCategory)，不能当普通 tag 塞。
 TAGS = ["moss image", "moss-image", "deepseek", "whale girl", "大肥鱼", "dafeiyu",
-        "鲸鱼娘", "chibi", "character", "comfyui", "anime", "女仆", "maid"]
+        "鲸鱼娘", "chibi", "comfyui", "女仆", "maid"]
