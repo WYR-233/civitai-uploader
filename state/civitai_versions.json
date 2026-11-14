@@ -1,0 +1,62 @@
+{
+ "Q 版 · SFT 底模（chibi）": {
+  "versionId": 3469536,
+  "files": [
+   {
+    "name": "qban-sft-fused-qkv.safetensors",
+    "fileId": 3373436,
+    "type": "Model"
+   },
+   {
+    "name": "qban-sft-split.safetensors",
+    "fileId": 3373437,
+    "type": "Other"
+   }
+  ]
+ },
+ "正比版 · SFT 底模（adult）": {
+  "versionId": 3469541,
+  "files": [
+   {
+    "name": "prop-sft-fused-qkv.safetensors",
+    "fileId": 3373438,
+    "type": "Model"
+   },
+   {
+    "name": "prop-sft-split.safetensors",
+    "fileId": 3373439,
+    "type": "Other"
+   }
+  ]
+ },
+ "Q 版 · Base 底模（chibi）": {
+  "versionId": 3469542,
+  "files": [
+   {
+    "name": "qban-base-fused-qkv.safetensors",
+    "fileId": 3373440,
+    "type": "Model"
+   },
+   {
+    "name": "qban-base-split.safetensors",
+    "fileId": 3373441,
+    "type": "Other"
+   }
+  ]
+ },
+ "正比版 · Base 底模（adult）": {
+  "versionId": 3469543,
+  "files": [
+   {
+    "name": "prop-base-fused-qkv.safetensors",
+    "fileId": 3373442,
+    "type": "Model"
+   },
+   {
+    "name": "prop-base-split.safetensors",
+    "fileId": 3373444,
+    "type": "Other"
+   }
+  ]
+ }
+}
