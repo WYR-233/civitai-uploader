@@ -2,7 +2,7 @@
 
 Civitai **内部 API** 上传工具包（官方没有模型上传 API，这套是从前端 JS 里逆出来的）。
 
-> 完整接口说明与坑位见记忆卡：`~/deepseek-memory/memory/工作/AI生图/2026-11-14_Civitai自动化上传全流程.md`
+> 运行产物（`state/*.json`）不入库；`previews/` 是待上传图片目录，也不入库。
 
 ## 环境要求
 
